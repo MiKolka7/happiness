@@ -1,8 +1,8 @@
 @import url(normalize.css);
 
-body {
-  min-width: 1200px;
-}
+// body {
+  // min-width: 1200px;
+// }
 
 [class^="blend"] img {
   mix-blend-mode: luminosity;
@@ -389,7 +389,7 @@ footer {
   display: table;
 }
 .filters .block {
-  width: 33.33%;
+  width: 25%;
   float: left;
   overflow: hidden;
   padding: 0;
@@ -424,7 +424,8 @@ footer {
 }
 
 .title {
-  padding-top: 14.1% !important;
+  width: 50% !important;
+  padding-top: 25% !important;
   // clear: both;
   color: #fff;
   text-align: center;
